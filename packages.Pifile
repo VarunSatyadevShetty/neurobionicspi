@@ -9,7 +9,7 @@ RUN apt-get install ufw -y
 RUN bash -c "git clone https://github.com/imsenthur/Actuator-Package.git /home/${user}/Actuator-Package"
 RUN apt-get install python3-scipy libatlas-base-dev -y # ufw is already listed
 RUN apt-get install libc6 libgcc-s1 -y
-RUN bash -c "python3 -m pip install flexsea"
+#RUN bash -c "python3 -m pip install flexsea"
 RUN bash -c "python3 -m pip install numpy --upgrade"
 
 # Gh
